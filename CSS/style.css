@@ -7,15 +7,14 @@ body{
 	min-height: 100vh;
 	font-family: 'Jost', sans-serif;
 	/* background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e); */
-    background: linear-gradient(to top right, #fc2c77 0%, #6c4079 100%);
+    background: linear-gradient(to top right, #ffcc00 0%, #810000 100%);
 }
 .container{
 	width: 350px;
 	height: 500px;
-	background: red;
-	overflow: hidden;
-	background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
-	border-radius: 10px;
+	/* background: yellow; */
+	/* background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover; */
+	border-radius: 20px;
 	box-shadow: 5px 20px 50px #000;
 }
 #chk{
@@ -27,7 +26,7 @@ body{
 	height: 100%;
 }
 label{
-	color: #fff;
+	/* color: #fff; */
 	font-size: 2.3em;
 	justify-content: center;
 	display: flex;
@@ -69,12 +68,15 @@ button:hover{
 	background: #6d44b8;
 }
 .login{
-	height: 460px;
+	width: 350px;
+	height: 500px;
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
 	background: #eee;
-	border-radius: 60% / 10%;
-	transform: translateY(-180px);
-	transition: .8s ease-in-out;
+	border-radius: 20px;
 }
+
 .login label{
 	color: #573b8a;
 	transform: scale(.6);
