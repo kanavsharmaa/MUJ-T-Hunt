@@ -82,6 +82,7 @@ if(empty($err))
         <a href="register.php">
             <button class="btn">Sign Up</button>
         </a>
+        <?php echo($username_err) ?>
         <?php echo($password_err) ?>
     </div>
 </body>

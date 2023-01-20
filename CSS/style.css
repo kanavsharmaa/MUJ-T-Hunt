@@ -6,8 +6,7 @@ body{
 	align-items: center;
 	min-height: 100vh;
 	font-family: 'Jost', sans-serif;
-	/* background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e); */
-    background: linear-gradient(to top right, #ffcc00 0%, #810000 100%);
+	background: linear-gradient(to top right, #fc2c77 0%, #6c4079 100%);
 }
 .container{
 	width: 350px;
@@ -60,6 +59,7 @@ input{
 	margin-top: 20px;
 	outline: none;
 	border: none;
+	text-decoration: none;
 	border-radius: 5px;
 	transition: .2s ease-in;
 	cursor: pointer;
@@ -73,13 +73,13 @@ button:hover{
 	overflow: hidden;
 	border-radius: 10px;
 	box-shadow: 5px 20px 50px #000;
-	background: #eee;
+	/* background: #eee; */
+	background: linear-gradient(to top right, #fc2c77 0%, #6c4079 100%);
 	border-radius: 20px;
 }
 
 .login label{
-	color: #573b8a;
-	transform: scale(.6);
+	color: black;
 }
 
 #chk:checked ~ .login{
@@ -90,4 +90,7 @@ button:hover{
 }
 #chk:checked ~ .signup label{
 	transform: scale(.6);
+}
+.export{
+	margin-top: 15px;;
 }
